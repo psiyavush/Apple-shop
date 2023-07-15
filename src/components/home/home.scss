@@ -1,0 +1,123 @@
+.home{
+    padding: 15px 0;
+    &__bg{
+        border-radius: 8px;
+        padding-bottom: 30px;
+    }
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 30px 60px;
+    }
+    &__title{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px; 
+    }
+    // &__see{
+    //     color: #1890FF;
+    //     text-align: right;
+    //     font-size: 15px;
+    //     font-style: normal;
+    //     font-weight: 500;
+    //     line-height: 18px; 
+    // }
+    &__content{
+        display: flex;
+        gap: 81px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 60px;
+    }
+    &__right{
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+    }
+    &__search{
+        height: 40px;
+        padding-left: 15px;
+        width: 200px;
+    }
+    &__undefined{
+        text-align: center;
+        margin: 0 20px;
+    }
+    &__select{
+        width: 200px;
+        height: 40px;
+        background: #1890FF;
+        outline: none;
+        color: #FFF;
+        font-size: 15px;
+        padding-left: 15px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    &__card{
+        text-align: center;
+        width: calc(25% - 100px);
+        &-img{
+            width: 100%;
+        }
+        &-name{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 19px; 
+            margin: 32px 0 4px;
+        }
+        &-price{
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; 
+        }
+        &-owen{
+            display: flex;
+            column-gap: 20px;
+            justify-content: center;
+        }
+        
+        &-btn{
+            border-radius: 4px;
+            background:#1890FF;
+            color: #FFF;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            width: 56px;
+            height: 24px;
+            border: none;
+            margin-top: 15px;
+            cursor: pointer;
+            &:disabled{
+                background: gray;
+            }
+        }
+    }
+    &__moreBtn{
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+        &-btn{
+            width: 120px;
+            height: 30px;
+            background:#1890FF;
+            color: #FFF;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    }
+    
+}

@@ -1,0 +1,27 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,600;1,300&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100px;
+    min-width: 1320px;
+    margin: 0 auto;
+}
+
+.App{
+    background: #F4F4F4;
+    padding-top: 60px;
+}
+
+@import './components/header/header.scss';
+@import './components/home/home.scss';
+@import './components/footer/footer.scss';
+@import './components/popup/popup.scss';
+@import './components/cart/cart.scss';

@@ -1,0 +1,47 @@
+.footer{
+    &__bg{
+        border-radius: 8px;
+    }
+    &__nav{
+        padding: 30px 0 40px 67px;
+        display: flex;
+        column-gap: 50px;
+        border-radius: 8px;
+        box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.01);
+    }
+    &__title{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px; 
+    }
+    &__info{
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 8px 0 21px;
+    }
+    &__tel{
+        font-weight: 600; 
+    }
+    &__email{
+        color: #1890FF;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; 
+    }
+    &__list{
+        display: flex;
+        column-gap: 28px;
+    }
+    &__icon{
+        width: 20px;
+        height: 20px;
+        color: #1890FF;
+        & a {
+            color: #1890FF;
+        }
+    }
+}

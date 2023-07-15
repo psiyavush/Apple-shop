@@ -1,0 +1,90 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "/img/Airpods.png",
+      "title": "Airpods",
+      "price": 199
+    },
+    {
+      "id": 2,
+      "image": "/img/Iphone.png",
+      "title": "Iphone XR",
+      "price": 799
+    },
+    {
+      "id": 3,
+      "title": "Iphone 13 ",
+      "price": 800,
+      "image": "https://login.kg/image/cache/catalog/new/Phones/Apple/IPhone%2013/mini/2-500x500.jpg"
+    },
+    {
+      "id": 4,
+      "image": "/img/Apple-card.png",
+      "title": "Apple Card",
+      "price": 0
+    },
+    {
+      "title": "Apple Watch series 7",
+      "price": "300",
+      "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_602_0_1.jpg",
+      "id": 5
+    },
+    {
+      "title": "Apple Watch SE GPS",
+      "price": "200",
+      "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_587_7_1.jpg",
+      "id": 6
+    },
+    {
+      "title": "Apple Watch 3 GPS",
+      "price": "250",
+      "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_587_7_1.jpg",
+      "id": 7
+    },
+    {
+      "title": "Power Bank",
+      "price": "100",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJWY3?wid=532&hei=582&fmt=png-alpha&.v=1625613219000",
+      "id": 8
+    },
+    {
+      "title": "Wireless",
+      "price": "50",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPU13?wid=532&hei=582&fmt=png-alpha&.v=1661793507666",
+      "id": 9
+    },
+    {
+      "title": "USB-C Power Adapter",
+      "price": "30",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MU7T2_GEO_US?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1542406417329",
+      "id": 10
+    },
+    {
+      "title": "Lightning to usb cable (2m)",
+      "price": "20",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MD819?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1600799998000",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "title": "Iphone 13 Pro",
+      "price": "1100",
+      "image": "https://login.kg/image/cache/catalog/new/Phones/Apple/IPhone%2013/Pro/4-500x500.jpg"
+    },
+    {
+      "id": 13,
+      "image": "/img/Apple-tv.png",
+      "title": "Apple TV 4K",
+      "price": 179
+    },
+    {
+      "id": 14,
+      "title": "Iphone 12 Pro",
+      "price": 700,
+      "image": "https://login.kg/image/cache/catalog/new/Phones/Apple/iPhone%2012%20Pro/1-500x500.jpg",
+      "owen": true
+    }
+  ],
+  "orders": []
+}

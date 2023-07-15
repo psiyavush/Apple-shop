@@ -1,0 +1,43 @@
+.header{
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+    &__watch{
+        height: 80px;
+        border-radius: 8px 0 0 8px; 
+    }
+    &__title{
+        width: 15%;
+        min-width: 244px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.01);
+        display: flex;
+        justify-content: center;
+    }
+    &__list{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        column-gap: 55px;
+        background: #444444;
+        border-radius: 0 8px 8px 0; 
+        align-items: center;
+        height: 80px;
+    }
+    &__item{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #ffffff;
+    }
+    &-cart{
+        font-size: 30px; 
+        padding-left: 50px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}
